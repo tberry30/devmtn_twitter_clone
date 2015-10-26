@@ -76,4 +76,16 @@ $(document).ready(function(){
 	});
 
 
+	$('.tweet').hover(function() {
+		$('.tweet-actions').show();
+	}, function() {
+		$('.tweet-actions').hide();
+	});
+
+	$('.tweet').click(function() {
+		$('.stats').show();
+		$('.reply').show();
+	})
+
+
 })
